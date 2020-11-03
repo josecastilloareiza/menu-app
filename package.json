@@ -2,10 +2,11 @@
   "name": "menu-app",
   "version": "1.0.0",
   "description": "App for food delivery",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "jest --config jest.config.json",
-    "dev": "lite-server"
+    "dev": "lite-server",
+    "lint": "eslint ./src"
   },
   "author": "JCA",
   "license": "ISC",
@@ -14,6 +15,9 @@
     "lite-server": "^2.5.4"
   },
   "devDependencies": {
-    "eslint": "^7.12.1"
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.22.1"
   }
 }
