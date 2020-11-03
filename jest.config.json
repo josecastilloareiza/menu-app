@@ -1,0 +1,6 @@
+{
+  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(js)$",
+  "moduleFileExtensions": ["js"],
+  "modulePathIgnorePatterns": ["lib, node_modules"],
+  "verbose": true
+}

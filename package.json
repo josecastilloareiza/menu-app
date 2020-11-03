@@ -1,0 +1,19 @@
+{
+  "name": "menu-app",
+  "version": "1.0.0",
+  "description": "App for food delivery",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.config.json",
+    "dev": "lite-server"
+  },
+  "author": "JCA",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.6.2",
+    "lite-server": "^2.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1"
+  }
+}
